@@ -1,0 +1,49 @@
+git status:
+يعرض الحالة الحالية للمشروع، مثل الملفات التي تم تعديلها أو الملفات الجديدة غير المتابعة
+
+git init:
+ينشئ مستودع (repository)
+ جديد في المجلد الحالي، ويبدأ تتبع التغييرات عبر إنشاء مجلد خفي اسمه .git.
+
+git commit:
+يحفظ لقطة  من التغييرات التي أعدتها للإيداع  في المشروع، مع إضافة رسالة توضح التغييرات (مثل: git commit -m "first commit").
+
+git push:
+يرفع التغييرات المحفوظة في اللوكال ريبو 
+GitHub لمشاركتها مع الفريق أو حفظها على 
+
+Theoretical Answers:
+
+1. Disagreeing with Ahmed's Statement
+Ahmed is incorrect. You cannot commit changes directly from the working directory without staging them first (git add). Here’s why:
+
+Git requires explicit staging (git add) to select which changes should be committed.
+
+This prevents accidental commits 
+
+Staging allows partial commits (e.g., only specific changes in a file).
+
+ 
+2.code hosting platforms 
+Two popular alternatives to GitHub:
+
+1-GitLab
+
+2-Bitbucket
+
+Key Features of Code Hosting Providers:
+
+Version Control: Full Git support (branching, merging, history).
+
+Collaboration: code reviews, issue tracking.
+
+Access Control: Permissions for teams and private repositories.
+
+True or False:
+True – Teams can self-host Git servers 
+
+3. Git Flag -u in git push -u origin main :
+
+Meaning: Sets Default Remote conniction: origin
+Default Branch: main
+thats to write "git push", No need to type origin main every time
